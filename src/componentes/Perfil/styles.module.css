@@ -1,0 +1,46 @@
+.card{
+    position: relative;
+    width: 80%;
+    height: 461px;
+    display: flex;
+    flex-direction: column;
+    background: #0E0E1B;
+    background-image: url(../../assets/RJ.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-top: 29px;
+    margin-left: 64px;
+    border-radius: 15px;
+}
+.card>img{
+    width: 115px;
+    height: 115px;
+   
+    margin-top: 50%;
+    border-radius: 50%;
+   
+    border: 5px solid #004B96
+}
+.card>div>img{
+    border-radius: 15px;
+}
+
+.texto>h1{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.57px;
+    letter-spacing: 0%;
+    text-align: center;
+    color:white
+}
+.texto>h3{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 0%;
+    text-align: center;
+    color:white
+
+}

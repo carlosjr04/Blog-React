@@ -1,0 +1,138 @@
+.feed{
+    width: 1200px; /* Ou qualquer valor desejado */
+    max-width: 80%;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    background: #0E0E1B;
+    margin-top: 29px;
+    border-radius: 10px;
+}
+.header{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap:25px;
+}
+.header>p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+.nome{
+    display: flex;
+    align-items: center;
+    gap:15px
+}
+.nome>div>h3{
+
+    height: 10px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24.01px;
+    letter-spacing: 0%;
+
+
+}
+
+.nome>div>p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #999999;
+    
+
+}
+.nome>img{
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    border:5px solid #036FDB;
+}
+.comentario{
+    color:white
+}
+.comentario>h3{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+
+}
+.comentario>p{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+
+}
+.feedback{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column
+    
+}
+.feedbackText{
+    
+    max-width: 842px;
+    min-height: 112px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    
+    
+    
+}
+
+.feedbackText::placeholder{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+    color: #444444;
+
+
+}
+.feedback>h3{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+
+    color: white;
+}
+.feedbackbotao{
+    margin-top: 25px;
+    width: 139px;
+    height: 47px;
+    background: #036FDB;
+    color: white;
+    border-radius: 8px;
+    border: 0px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+    cursor: pointer;
+
+}
+.comentar{
+    display: flex;
+    flex-direction: column-reverse;
+}

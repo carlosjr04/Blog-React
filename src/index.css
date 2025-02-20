@@ -1,0 +1,9 @@
+body{
+    margin: 0px;
+    background: #00274F;
+
+}
+.feed{
+    display: flex;
+    flex-direction: column;
+}
