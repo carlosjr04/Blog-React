@@ -19,7 +19,7 @@ const comentariosIniciais = [
         nome: "Ana Clara",
         comentario: "Est aspernatur quis eos natus dicta et internos",
         likes: 4,
-        data: new Date(2024, 5, 12, 14, 30, 45).toISOString(),
+        data: new Date(2025, 1, 12, 14, 30, 45).toISOString(),
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ const comentariosIniciais = [
         nome: "Francisco Leandro",
         comentario: "Est aspernatur quis eos natus dicta et internos",
         likes: 12,
-        data: new Date(2023, 5, 12, 14, 30, 45).toISOString(),
+        data: new Date(2024, 11, 12, 14, 30, 45).toISOString(),
     },
     {
         id: 4,
@@ -39,7 +39,7 @@ const comentariosIniciais = [
         nome: "Ana Clara",
         comentario: "Est aspernatur quis eos natus dicta et internos",
         likes: 4,
-        data: new Date(2024, 5, 12, 14, 30, 45).toISOString(),
+        data: new Date(2024, 9, 12, 14, 30, 45).toISOString(),
     },
 ];
 export default comentariosIniciais;

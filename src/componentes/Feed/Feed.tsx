@@ -85,7 +85,6 @@ export default function Feed(props: FeedProps) {
         setComentario("");
     };
     const removerComentario = (id: number, userid: number) => {
-
         if (!UserData) {
             console.log("Erro no login")
             return
