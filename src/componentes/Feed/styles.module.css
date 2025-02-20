@@ -12,7 +12,8 @@
     color: white;
     display: flex;
     align-items: center;
-    gap:25px;
+    gap:55%;
+    white-space: nowrap;
 }
 .header>p{
     font-family: Inter;
